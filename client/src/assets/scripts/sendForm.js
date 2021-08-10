@@ -52,7 +52,7 @@ const sendForm = (id, classView, popupId, classViewPopup, modalWindow, classModa
   }
 
   const postData = (body) => {
-    return fetch('http://localhost:30000/api/sendForm', {
+    return fetch('/api/sendForm', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

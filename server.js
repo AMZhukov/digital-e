@@ -22,7 +22,7 @@ if (isProd) {
 }
 
 function start() {
-  app.listen(30000, () => {
+  app.listen(80, () => {
     console.log(`Server has been started`);
   });
 }
