@@ -1,0 +1,41 @@
+$firstColor: hsla(214, 54%, 26%, 1);
+$secondColor: hsla(208, 56%, 58%, 1);
+$thirdColor: hsl(0, 0%, 100%);
+$fourthColor: hsla(213, 51%, 40%, 1);
+$fifthColor: hsla(211, 53%, 44%, 0.2);
+
+$fontFirst: 'Gilroy', Arial, sans-serif;
+$fontThird: 'Galien', Arial, sans-serif;
+
+$fontWeight1: 400;
+$fontWeight2: 600;
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-SemiBold.eot');
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+    url('../fonts/Gilroy/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy/Gilroy-SemiBold.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Galien';
+  src: local('Galien-Regular'), local('Galroy-Regular'),
+  url('../fonts/Galien/Galien-Regular.woff') format('woff'),
+  url('../fonts/Galien/Galien-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

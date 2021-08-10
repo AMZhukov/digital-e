@@ -1,0 +1,29 @@
+@import 'basicColor';
+.popup-thanks {
+  position: fixed;
+  z-index: 1001;
+  width: 50%;
+  height: 50vh;
+  display: none;
+  background-color: $firstColor;
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 500px;
+  margin: 1rem auto;
+  transition: opacity ease 1600ms;
+}
+.popup-thanks_display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup-thanks_visible {
+  opacity: 1;
+}
+.popup-thanks__p {
+  color: $thirdColor;
+  font-size: 3rem;
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Galien';
+    src: local('Galien-Regular'), local('Galroy-Regular'),
+        url('Galien-Regular.woff') format('woff'),
+        url('Galien-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

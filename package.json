@@ -1,0 +1,21 @@
+{
+  "name": "d-element",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run build --prefix client",
+    "clientInstall": "npm run clinentInstall --prefix client",
+    "prodServer": "env-cmd -f .env.prod node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "prettier": "^2.3.2"
+  }
+}

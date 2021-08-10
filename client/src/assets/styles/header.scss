@@ -1,0 +1,33 @@
+.header {
+  padding: 40px;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 48px;
+  height: 48px;
+  display: flex;
+}
+.header__logo-image {
+  background: url('../images/logo.svg') no-repeat center center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.header__burger {
+  width: 24px;
+}
+.header__burger-line {
+  background-color: hsl(212, 53%, 44%);
+  height: 2.5px;
+}
+.header__burger-line:nth-child(2) {
+  margin: 4px 0 4px;
+}

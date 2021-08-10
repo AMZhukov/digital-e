@@ -1,0 +1,59 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.container-xs {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.container-xxs {
+  max-width: 940px;
+}
+.indent {
+  padding-top: 100px;
+}
+.button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Gilroy', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
